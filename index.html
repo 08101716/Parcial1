@@ -4,9 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tienda Virtual</title>
+    <script src="tienda.js" defer></script>
 </head>
-<body>
+<style>
+    body{
+        background-color: rgba(250, 235, 215, 0.651);
+
+    }
+    .title{
+        
+    }
+    button{
+        padding: 10px;
+        border-radius: 5px;
+        background-color: antiquewhite;
+        border-color: rgba(0, 0, 0, 0.226);
+        box-shadow: #000;
+    }
+
+    .btn:hover{
+        color: #000;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgb(252, 189, 107);
+    }
+
+    .btnCompra:hover{
+        color: #000;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgb(125, 170, 125);
+    }
+
+
+    table{
+        display: table;
+        display: flex;
+        border: 2px solid;
+        border-color: black;
+    }
+    td{
+        padding: 10px;
+        display: inline-block;
+        border: 1px solid;
+        border-color: black;
+    }
+</style>
+<body onload="init();">
+    <div class="title">
+        <h1>TIENDA VIRTUAL</h1>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td><span id="resultado"></span></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>ID</td>
+                <td>NOMBRE</td>
+                <td>STOCK</td>
+                <td>PRECIO</td>
+            </tr>
+            <tr>
+                <script>
+                camisa.onclick = function (e){
+                    const agregando = inventario.filter(food => inventario.nombre === "Camisa");
+                </script>
+
+                <td</td>
+                
+                <script>
+                }
+                </script>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <button class="btn" id="camisa" name="camisa">Agregar Camisa</button>
+        <button class="btn" id="pantalon" name="pantalon">Agregar Pantalon</button>
+        <button class="btn" id="zapato" name="zapato">Agregar Zapato</button>
+    </div>
+    <div>
+        <button class="btnCompra compra" name="compra">Realizar Compra</button>
+    </div>
     
+
+    
+    <br>
+    
+
+    <script src="tienda.js"></script>
 </body>
 </html>
